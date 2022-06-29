@@ -1,6 +1,6 @@
 # chamomile-tea-course-website
 
-<strong> Landing page made from scratch for imagined course about drinking <em> chamomile tea </em>. </strong>
+<strong> Landing page made from scratch for imagined course about drinking <em> chamomile tea</em>.</strong>
 
 Created using:
 <ul>
