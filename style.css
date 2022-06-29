@@ -112,6 +112,15 @@ button {
     visibility: visible; 
     opacity: 1;
 }
+.up-image img {
+    border-radius: 8px;
+}
+.up-image .img-sign {
+    bottom: 1%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
 /* center */
 .center {
     background-color: #fff;
