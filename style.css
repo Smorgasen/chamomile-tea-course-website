@@ -10,6 +10,8 @@ button {
     background-color: #3882f6;
     color: #fff;
     font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
 }
 /* header */
 .hero-main {
@@ -48,6 +50,7 @@ button {
 /* hero */
 .hero {
     display: flex;
+    padding: 100px 200px;
 }
 .headline {
     color: #f9faf8;
@@ -56,7 +59,18 @@ button {
 }
 .subheading {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.upper-sign-up button {
+    padding: 10px 30px;
+    border: none;
+}
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    gap: 10px;
 }
 /* center */
 .center {
