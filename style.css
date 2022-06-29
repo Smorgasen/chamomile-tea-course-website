@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 body {
     display: flex;
     flex-direction: column;
@@ -29,23 +29,28 @@ button {
     color: #f9faf8;
     font-weight: bold;
 }
-.left-header, .links {
+.left-header, .links, .right-header {
     display: flex;
     align-items: center;
     justify-content: center;    
 }
-.links {
+.links, .right-header {
     padding: 0;
     margin: 0;
     gap: 60px;
 }
-.links a {
+.links a,
+.right-header a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
 }
 .right-header ul {
     list-style: none;
+}
+.right-header button {
+    padding: 10px 30px;
+    border: none;
 }
 /* hero */
 .hero {
@@ -137,13 +142,23 @@ button {
 }
 /* bottom block */
 .bottom-block {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
+
 }
 /* quote */
 .quote-block {
     background-color: #e5e7eb;
+    padding: 150px 300px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-author{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: end;
 }
 /* call to action */
 .bottom {
