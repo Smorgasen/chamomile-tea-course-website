@@ -146,6 +146,11 @@ button {
     margin-bottom: 20px;
     border-radius: 8px;
 }
+.center-image img,
+.up-image img,
+.bottom {
+    box-shadow:8px 8px 20px;
+}
 .text {
     color: #6a6a6a;
     font-size: 20px;
