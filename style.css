@@ -12,6 +12,7 @@ button {
     font-weight: 700;
     font-size: 20px;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* header */
 .hero-main {
@@ -163,6 +164,27 @@ button {
 /* call to action */
 .bottom {
     background-color: #3882f6;
+    margin: 100px 220px;
+    padding: 50px 140px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.call-bottom {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bottom-sign-up button {
+    padding: 10px 30px;
+    border: 2px solid #fff;
 }
 /* footer */
 .footer {
