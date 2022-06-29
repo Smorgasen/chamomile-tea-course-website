@@ -91,6 +91,11 @@ button {
     visibility: none; opacity: 0;
     transition: opacity 0.3s;
 }
+.info-block .img-sign {
+    bottom: 10.5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 .img-sign a {
    text-decoration: none;
    color: #1f2937; 
@@ -103,19 +108,38 @@ button {
 /* center */
 .center {
     background-color: #fff;
+    text-align: center;
+    margin: 150px 0;
 }
 .title {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 60px;
+}
+.info-block {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    /* margin-bottom: 150px; */
+}
+.info-img {
+    width: 200px;
+}
+.center-image img {
+    outline: 7px solid #89b4f9;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 .text {
     color: #6a6a6a;
     font-size: 18px;
 }
-.center-image:hover .img-sign {
-  visibility: visible; 
-  opacity: 1;
+/* bottom block */
+.bottom-block {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
 }
 /* quote */
 .quote-block {
