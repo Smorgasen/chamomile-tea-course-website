@@ -50,7 +50,8 @@ button {
 /* hero */
 .hero {
     display: flex;
-    padding: 100px 200px;
+    padding: 100px 150px;
+    margin-bottom: 30px;
 }
 .headline {
     color: #f9faf8;
@@ -73,7 +74,7 @@ button {
 .left-hero {
     display: flex;
     flex-direction: column;
-    padding-right: 100px;
+    padding-right: 89px;
     gap: 10px;
 }
 .up-image,
@@ -109,7 +110,7 @@ button {
 .center {
     background-color: #fff;
     text-align: center;
-    margin: 150px 0;
+    margin: 100px 0;
 }
 .title {
     color: #1f2937;
@@ -121,7 +122,6 @@ button {
     display: flex;
     justify-content: center;
     gap: 52px;
-    /* margin-bottom: 150px; */
 }
 .info-img {
     width: 200px;
@@ -133,7 +133,7 @@ button {
 }
 .text {
     color: #6a6a6a;
-    font-size: 18px;
+    font-size: 20px;
 }
 /* bottom block */
 .bottom-block {
