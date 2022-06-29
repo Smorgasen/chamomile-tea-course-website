@@ -76,7 +76,8 @@ button {
     padding-right: 100px;
     gap: 10px;
 }
-.up-image {
+.up-image,
+.center-image {
     position: relative;
 }
 .img-sign {
@@ -94,7 +95,8 @@ button {
    text-decoration: none;
    color: #1f2937; 
 }
-.up-image:hover .img-sign {
+.up-image:hover .img-sign,
+.center-image:hover .img-sign {
     visibility: visible; 
     opacity: 1;
 }
@@ -107,16 +109,13 @@ button {
     font-size: 36px;
     font-weight: 900;
 }
-.content-image {
-    /* position: relative; */
-    /* float: left; */
-}
-.content-image a {
-    /* position: absolute; */
-}
 .text {
     color: #6a6a6a;
     font-size: 18px;
+}
+.center-image:hover .img-sign {
+  visibility: visible; 
+  opacity: 1;
 }
 /* quote */
 .quote-block {
