@@ -33,7 +33,7 @@ button {
 .left-header, .links, .right-header {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 .links, .right-header {
     padding: 0;
@@ -105,11 +105,11 @@ button {
 }
 .img-sign a {
    text-decoration: none;
-   color: #1f2937; 
+   color: #1f2937;
 }
 .up-image:hover .img-sign,
 .center-image:hover .img-sign {
-    visibility: visible; 
+    visibility: visible;
     opacity: 1;
 }
 .up-image img {
@@ -232,4 +232,7 @@ button {
 #github {
     border: 2px solid #fff;
     border-radius: 50%;
+}
+.bold {
+  font-weight: bold;
 }
