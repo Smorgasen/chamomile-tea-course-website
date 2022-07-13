@@ -5,5 +5,5 @@
 Created using:
 <ul>
     <li>HTML</li>
-    <li>CSS (Flexbox)</li>
+    <li>CSS</li>
 </ul>
