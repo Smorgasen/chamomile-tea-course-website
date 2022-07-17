@@ -229,6 +229,9 @@ button {
     margin-bottom: 20px;
     font-size: 18px;
 }
+.copyright p span {
+    font-weight: bold;
+}
 #github {
     border: 2px solid #fff;
     border-radius: 50%;
