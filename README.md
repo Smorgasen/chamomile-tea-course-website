@@ -2,6 +2,8 @@
 
 <strong> Landing page for imagined course about drinking <em> chamomile tea</em>.</strong>
 
+Check out the website live <a href="https://smorgasen.github.io/chamomile-tea-course-website/" target="_blank"> here </a>.
+
 <img src="images/chamomile-tea-course-website.png" alt="Website layout">
 
 Created using: <br><br>
